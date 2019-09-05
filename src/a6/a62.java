@@ -17,10 +17,8 @@ public class a62 {
     }
 
     public static void printV2(int size){
-        int length = 2*size -1;
         for(int i = 1; i<= size; i++) {
-            int lineLength = 2*i-1;
-            int preChars = (length-lineLength)/2;
+            int preChars = size-i;
             for(int j = 0; j< preChars; j++) {
                 System.out.print(" ");
             }
